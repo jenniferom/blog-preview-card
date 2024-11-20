@@ -22,6 +22,7 @@
 .text {
   font-family: "Figtree", sans-serif;
   justify-content: left;
+  margin-top: 20px;
 }
 .date {
   font-size: 14px;
@@ -32,14 +33,23 @@
   gap: 10px;
 }
 .avatar-image {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
-
+.p1 {
+  background-color: hsl(47, 88%, 63%);
+  padding: 3px 7px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline;
+}
 h2:hover{
   color: hsl(47, 88%, 63%);
   cursor: pointer;
 }
-h3 {
-  color: hsl(0, 0%, 7%);
+h2 h4 {
+  font-weight: 800;
+}
+h4 {
+  font-size: 14px;
 }
