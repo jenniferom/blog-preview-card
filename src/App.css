@@ -40,7 +40,7 @@
   background-color: hsl(47, 88%, 63%);
   padding: 3px 7px;
   border-radius: 5px;
-  font-weight: bold;
+  font-weight: 800;
   display: inline;
 }
 h2:hover{
